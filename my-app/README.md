@@ -1,4 +1,4 @@
-![screenshot](/tickets.png)
+![screenshot](tickets.png)
 
 # Страница для поиска и фильтрации авиабилетов
 
