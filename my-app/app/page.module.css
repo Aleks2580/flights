@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #faf6f6;
+    padding-top: 50px;
+
+}
+
+.sidebar {
+    width: 250px;
+    min-width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    align-self: start;
+    margin-top: 20px;
+}
+
+
+.mainContent {
+    align-self: flex-start;
+    overflow: auto;
+    padding-left: 20px;
+}
+
+.sidebarSection {
+    margin-bottom: 20px;
+}
+
+.buttonGroup {
+    display: flex;
+    border: 1px solid #00C7FF;
+    border-radius: 5px;
+    overflow: hidden; 
+}
+
+.button {
+    flex-grow: 1;
+    background-color:  #00C7FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:not(:last-child) {
+    border-right: 1px solid white;
+}
+
+.button:hover {
+    background-color: #007AFF;
+}
+
+
+.checkboxLabel {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.checkboxInput {
+    margin-right: 10px;
+}
+
+.buttonGroup {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 10px;
+    color: gray;
+}
